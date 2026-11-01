@@ -22,3 +22,18 @@ A production-grade, highly concurrent Python data pipeline designed to extract m
 ## 📁 Repository Structure
 - `pipeline_engine.py`: The core concurrent extraction and validation script.
 - `final_validated_products_report.csv`: Sample output report containing processed, sorted, and validated production-grade dataset rows.
+## 📊 Pipeline Execution Results
+
+The pipeline successfully executed and simulated a live database fetch with high concurrency. The generated data has been securely exported to the repository as `final_validated_products_report.csv`. 
+
+Below is a preview of the validated multi-category payload structure included in the result:
+
+| Product ID | Product Title | Price (USD) | Category | Rating | Stock Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 101 | Wireless Bluetooth Earbuds | 49.99 | Electronics & Gadgets | 4.5 | In Stock |
+| 102 | Mechanical RGB Keyboard | 89.99 | Electronics & Gadgets | 4.7 | In Stock |
+| 209 | Minimalist Leather Wallet | 25.00 | Men's Apparel Collection | 4.5 | Out of Stock |
+| 312 | Structured Linen Blazer | 110.00 | Women's Fashion Design | 4.8 | In Stock |
+| 416 | 14k Gold Chain Necklace | 350.00 | Premium Jewelries & Luxury | 4.9 | In Stock |
+
+*Note: The complete dataset containing all 20 successfully validated items across all core enterprise categories is available directly in the uploaded CSV file.*
